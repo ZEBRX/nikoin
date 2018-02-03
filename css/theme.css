@@ -241,7 +241,7 @@ a:active {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #f4f4f4;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
@@ -5856,7 +5856,7 @@ section.features .feature-2 {
 }
 .pricing-1 {
   padding: 2.16666667em 3.25em 3.25em 3.25em;
-  background: #fff;
+  /*background: #fff;*/
 }
 .pricing-1:hover {
   box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.07);
@@ -5868,7 +5868,7 @@ section.features .feature-2 {
   padding: 2.16666667em 3.25em 3.25em 3.25em;
 }
 .pricing-2.pricing--emphasise {
-  background: #fff;
+  /*background: #fff;*/
   box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.07);
 }
 .pricing-2 p {
@@ -5886,7 +5886,7 @@ section.features .feature-2 {
   z-index: 20;
 }
 .pricing-3 .pricing__body {
-  background: #fff;
+  /*background: #fff;*/
   padding: 0 3.25em 3.25em 3.25em;
 }
 .pricing-3 p {
@@ -7306,8 +7306,8 @@ section:first-of-type.imagebg + .masonry-contained {
 .testimonial-3 {
   position: relative;
   overflow: hidden;
-  padding-bottom: 0;
-  padding-top: 0;
+  padding-bottom:0;
+  padding-top:0;
 }
 .testimonial-3:before {
   position: absolute;

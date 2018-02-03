@@ -1367,12 +1367,6 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -1381,6 +1375,12 @@ pre code {
 @media (min-width: 992px) {
   .container {
     width: 970px;
+  }
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media (min-width: 1200px) {
@@ -3380,4 +3380,10 @@ input[type="button"].btn-block {
   .hidden-print {
     display: none !important;
   }
+}
+article {
+  margin-right:40%;
+  /*border-right: 1px solid gray;*/
+  padding: 1em;
+  overflow: hidden;
 }
