@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="199098a9-6c94-4fd0-b82d-a1d965c8c8dd" name="Default" comment="Changes:&#10;1. New Timeline block edited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index-new.html" afterPath="$PROJECT_DIR$/index-new.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1006,7 +1005,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113036000" />
+    <option name="totallyTimeSpent" value="113124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
