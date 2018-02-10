@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="199098a9-6c94-4fd0-b82d-a1d965c8c8dd" name="Default" comment="Changes:&#10;1. New Timeline block edited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/theme.css" afterPath="$PROJECT_DIR$/css/theme.css" />
       <change beforePath="$PROJECT_DIR$/index-new.html" afterPath="$PROJECT_DIR$/index-new.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="index-new.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index-new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="525" column="97" lean-forward="false" selection-start-line="525" selection-start-column="97" selection-end-line="525" selection-end-column="97" />
+            <state relative-caret-position="-754">
+              <caret line="567" column="33" lean-forward="true" selection-start-line="567" selection-start-column="33" selection-end-line="567" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#0;n#li#5;n#ul#0;n#div#2;n#div#1;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -201,8 +200,8 @@
         <option value="$PROJECT_DIR$/css/socicon.css" />
         <option value="$PROJECT_DIR$/css/mq_style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index-new.html" />
         <option value="$PROJECT_DIR$/css/theme.css" />
+        <option value="$PROJECT_DIR$/index-new.html" />
       </list>
     </option>
   </component>
@@ -985,7 +984,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108642000" />
+    <option name="totallyTimeSpent" value="110369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1334,8 +1333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index-new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="525" column="97" lean-forward="false" selection-start-line="525" selection-start-column="97" selection-end-line="525" selection-end-column="97" />
+        <state relative-caret-position="-754">
+          <caret line="567" column="33" lean-forward="true" selection-start-line="567" selection-start-column="33" selection-end-line="567" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#0;n#li#5;n#ul#0;n#div#2;n#div#1;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
