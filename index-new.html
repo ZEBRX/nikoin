@@ -15,7 +15,17 @@
         <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
     </head>
     <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
-
+    	<link rel="stylesheet" href="css/style.css" media="screen" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/jquery.timelinr-0.9.6.js"></script>
+	<script>
+		$(function(){
+			$().timelinr({
+				arrowKeys: 'true'
+			})
+		});
+	</script>
 				
 		<div class="nav-container">
 		    
@@ -358,56 +368,47 @@
 		            </section><section>
 		                <div class="container">
 		                    <div class="row">
-		                        <div class="col-sm-12 text-center">
-		                            <div class="elements--title">
-		                                <h4>TIMELINE</h4>
-		                            </div>
-		                        </div>
-		                        <div class="col-sm-6 col-md-3 text-center">
-		                            <h6>Ammenity</h6>
-		                            <div class="piechart piechart-1" data-size="200" data-value="90">
-		                                <div class="piechart__overlay">
-		                                    <div class="piechart__description">
-		                                        <span class="h3">90%</span>
-		                                    </div>
-		                                </div>
-		                            </div>
-		                        </div>
-		                        <div class="col-sm-6 col-md-3 text-center">
-		                            <h6>Transport</h6>
-		                            <div class="piechart piechart-1" data-size="200" data-value="60">
-		                                <div class="piechart__overlay">
-		                                    <div class="piechart__description">
-		                                        <span class="h3">60%</span>
-		                                    </div>
-		                                </div>
-		                            </div>
-		                        </div>
-		                        <div class="col-sm-6 col-md-3 text-center">
-		                            <h6>Nightlife</h6>
-		                            <div class="piechart piechart-1" data-size="200" data-value="30">
-		                                <div class="piechart__overlay">
-		                                    <div class="piechart__description">
-		                                        <span class="h3">30%</span>
-		                                    </div>
-		                                </div>
-		                            </div>
-		                        </div>
-		                        <div class="col-sm-6 col-md-3 text-center">
-		                            <h6>Safety</h6>
-		                            <div class="piechart piechart-1" data-size="200" data-value="75">
-		                                <div class="piechart__overlay">
-		                                    <div class="piechart__description">
-		                                        <span class="h3">75%</span>
-		                                    </div>
-		                                </div>
-		                            </div>
-		                        </div>
-		                    </div>
-		                    
+		                    	<h1 style="font-size: 200%">Timeline</h1>
+					    <div id="timeline">
+							<ul id="dates">
+								<li><a href="#2017">2017</a></li>
+								<li><a href="#2018">2018</a></li>
+								<li><a href="#2019">2019</a></li>
+								<li><a href="#2020">2020</a></li>
+							</ul>
+							<ul id="issues">
+								<li id="2017">
+									<img src="img/Conceptualisation.png" width="256" height="256" />
+									<h1>2017</h1>
+									<p>Conceptualisation and Initial dev.</p>
+								</li>
+								<li id="2018">
+									<img src="img/planning.png" width="256" height="256" />
+									<h1>2018</h1>
+									<p>ICO and BaaS planning and Dev</p>
+								</li>
+								<li id="2019">
+									<img src="img/deployment.png" width="256" height="256" />
+									<h1>2019</h1>
+									<p>Use Case deployment and platform beta launch.</p>
+								</li>
+								<li id="2020">
+									<img src="img/Launch.png" width="256" height="256" />
+									<h1>2020</h1>
+									<p>Platform 1.0 Launch.</p>
+								</li>
+							</ul>
+						</div>
+						<a class="btn btn--sm" href="#" style="border-color: #666666; margin-left: 40%">
+		                    <span class="btn__text" style="color: #666; border-color: #fff">
+		                        View Complete Timeline
+		                    </span>
+		               </a>
 		                </div>
+		            </div>
 		                
-		            </section><section class="cover cover-12 form--dark imagebg height-100 parallax" data-overlay="4">
+		            </section>
+		            <section class="cover cover-12 form--dark imagebg height-100 parallax" data-overlay="4">
 		                <div class="background-image-holder">
 		                    <img alt="image" src="img/hero14.jpg">
 		                </div>
@@ -590,8 +591,8 @@
 		</div>
 		
 				
-		<script src="js/jquery-2.1.4.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
+<!-- 		<script src="js/jquery-2.1.4.min.js"></script>
+ -->        <script src="js/owl.carousel.min.js"></script>
         <script src="js/scrollreveal.min.js"></script>
         <script src="js/easypiechart.min.js"></script>
         <script src="js/parallax.js"></script>
