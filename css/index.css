@@ -1,0 +1,42 @@
+.imgHeader
+{
+	width: 110%;
+	margin-left: 51%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.line-1{
+    position: relative;
+    width: 24em;
+    color: #000;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+body 
+{
+/*  background-color:#fff;
+*/  text-align: center;
+  color:#000;
+}
+.headerButton
+{
+	background-color: #425bbb;
+}
+.mantraDiv
+{
+	color: #fff;font-family: Roboto; font-size: 200%;text-align: center;padding-bottom: 5%;
+}
+.widgetDiv
+{
+	width: 800px;
+    height: 49px;
+    background-color: #425bbb;
+    margin-bottom: 3%;
+    align-self: center;
+    margin-left: 14%;
+}
