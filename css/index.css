@@ -1,7 +1,54 @@
-.featureBlocks
+.imgHeader
 {
-	height: 92%; 
-	margin-top: 1.5%; 
-	display: inline-block;
-	padding-left: 3%;
+	width: 51%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.line-1{
+    position: relative;
+    width: 24em;
+    color: #000;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+body 
+{
+/*  background-color:#fff;
+*/  text-align: center;
+  color:#f4f4f4;
+}
+.headerButton
+{
+	background-color: #425bbb;
+    color: #f4f4f4;
+    position: relative;
+}
+.mantraDiv
+{
+	color: #fff;
+    font-family: Roboto; 
+    font-size: 200%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.widgetDiv
+{
+    height: 49px;
+    background-color: #425bbb;
+    margin-left: 9%;
+    margin-bottom: 3%;
+    align-self: center;
+    position: relative;
+}
+.documentButton
+{
+    padding:0px;
+    line-height: 1.25;
+    padding-left: 2.25em;
+    padding-right: 2.25em;
 }
