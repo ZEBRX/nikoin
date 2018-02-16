@@ -1367,7 +1367,7 @@ nav {
   line-height: 62px;
 }
 .nav-bar .logo {
-  max-height: 40%;
+  max-height: 60%;
   margin: 0;
 }
 .nav-bar .nav-module {
@@ -7733,7 +7733,7 @@ section:first-of-type.imagebg + .masonry-contained {
 }
 /*! -- Pillar Footers -- */
 footer .logo {
-  max-height: 26px;
+  max-height: 57px;
 }
 .footer-1 {
   padding-bottom: 0;
