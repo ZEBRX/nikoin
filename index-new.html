@@ -16,14 +16,18 @@
         <link href="css/index.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo2.css" />
+		<link rel="stylesheet" type="text/css" href="pater/pater.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
     </head>
     <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
-
-				
-		<div class="nav-container">
-		    
-		    
-		
+    	<div class="main-container">
+    		<section style="padding: 0px;">
+<!-- 		<section class="height-100 imagebg cover cover-1 parallax" data-overlay="3">
+ -->		    <main>
+		    	<div class="nav-container">
 		    <nav>
 		        <div class="utility-bar bg--secondary">
 		            <div class="nav-module left">
@@ -138,44 +142,62 @@
 		    </nav>
 		
 		</div>
-		
-		<div class="main-container">
-		<section class="height-100 imagebg cover cover-1 parallax" data-overlay="3">
-		                <div class="background-image-holder">
-<!-- 		                    <img alt="image" src="img/hero1.jpg">
- -->		                </div>
- 							<p>
+			<div class="content content--fixed">
+			</div>
+			<div class="content">
+				<canvas class="scene scene--full" id="scene"></canvas>
+				<script type="x-shader/x-vertex" id="wrapVertexShader">
+					#define PI 3.1415926535897932384626433832795
+					attribute float size;
+					void main() {
+						vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+						gl_PointSize = 3.0;
+						gl_Position = projectionMatrix * mvPosition;
+					}
+				</script>
+				<script type="x-shader/x-fragment" id="wrapFragmentShader">
+					uniform sampler2D texture;
+					void main(){
+						vec4 textureColor = texture2D( texture, gl_PointCoord );
+						if ( textureColor.a < 0.3 ) discard;
+						vec4 dotColor = vec4(0.3255, 0.7686, 0.7725, 1.0);
+						vec4 color = dotColor * textureColor;
+						gl_FragColor = color;
+					}
+				</script>
+				<div class="content__inner">
+					<div class="col-sm-11" style="padding-left: 10%;">
+						<p>
  								<span style="color: #000;font-family: Roboto; font-size: 180%;">Something</span>
 							  <a href="" style="color: #000; text-decoration: none; lighting-color: #000;" class="line-1 typewrite"  data-period="2000" data-type='[ "Blockchain", "Business", "Banking"]'>
 							    <span class="wrap" style="color: #000;"></span>
 							  </a>
 							  <span style="color: #000;font-family: Roboto; font-size: 180%;">testing.</span>
 							</p>
-		                <div class="container pos-vertical-center">
-		                    <div class="row" style="margin-bottom:0px;">
-		                        <div class="col-sm-6 text-right text-center-xs">
-		                            <img class="imgHeader" class="logo" alt="Nikoin" src="img/nikoin_black.png" >
-		                        </div>
-		                        
-		                    </div>
-		                    <div class="mantraDiv" ">Blockchain For Business.</div>
-		                    <div class="widgetDiv"></div>
-		                    <a class="btn headerButton" href="#">
-	                            <span class="btn__text ">
-	                                Invest in ICO
-		                        </span>
-		                    </a>
-		                    <a class="btn headerButton" href="#">
-	                            <span class="btn__text ">
-	                                Read Whitepaper
-		                        </span>
-		                    </a>
-		                    <a class="btn headerButton" href="#">
-	                            <span class="btn__text ">
-	                                TODO
-		                        </span>
-		                    </a>
-		                </div>
+						<div >
+							<img src="img/nikoin-logo.png" width="15%">
+				            <img class="imgHeader" class="logo" alt="Nikoin" src="img/nikoin_black.png" >
+				        </div>
+							<h3 class="content__subtitle">Blockchain for business</h3>
+						 <div class="widgetDiv col-sm-10" ></div>
+				                    <a class="btn headerButton" href="#">
+			                            <span class="btn__text ">
+			                                Invest in ICO
+				                        </span>
+				                    </a>
+				                    <a class="btn headerButton" href="#">
+			                            <span class="btn__text ">
+			                                Read Whitepaper
+				                        </span>
+				                    </a>
+				                    <a class="btn headerButton" href="#">
+			                            <span class="btn__text ">
+			                                TODO
+				                        </span>
+				                    </a>
+			        </div>
+				</div>
+		</main>
 		                
 		            </section>
 		            <section>
@@ -494,7 +516,11 @@
 		
 				
 		<script src="js/jquery-2.1.4.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
+ 	<script src="js/demo.js"></script>
+		<script src="js/three.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo2.js"></script>
+       <script src="js/owl.carousel.min.js"></script>
         <script src="js/scrollreveal.min.js"></script>
         <script src="js/easypiechart.min.js"></script>
         <script src="js/parallax.js"></script>
@@ -502,4 +528,3 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
-				

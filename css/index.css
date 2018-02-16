@@ -1,7 +1,6 @@
 .imgHeader
 {
-	width: 110%;
-	margin-left: 51%;
+	width: 51%;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
@@ -26,17 +25,23 @@ body
 .headerButton
 {
 	background-color: #425bbb;
+    color: #f4f4f4;
+    position: relative;
 }
 .mantraDiv
 {
-	color: #fff;font-family: Roboto; font-size: 200%;text-align: center;padding-bottom: 5%;
+	color: #fff;
+    font-family: Roboto; 
+    font-size: 200%;
+    text-align: center;
+    padding-bottom: 5%;
 }
 .widgetDiv
 {
-	width: 800px;
     height: 49px;
     background-color: #425bbb;
+    margin-left: 9%;
     margin-bottom: 3%;
     align-self: center;
-    margin-left: 14%;
+    position: relative;
 }
