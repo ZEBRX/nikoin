@@ -1125,8 +1125,8 @@ a {
 .btn i {
   color: #343434;
   border-color: #343434;
-  font-weight: 400;
-  font-size: 0.625em;
+  font-weight: 600;
+  font-size: 0.7em;
 }
 .btn[class*='col-'] {
   margin-left: 0;
@@ -1210,8 +1210,8 @@ a {
 }
 .btn--primary,
 .btn--primary:visited {
-  background: #425cbb;
-  border-color: #425cbb;
+  background: #232323;
+  border-color: #3f3f3f;
 }
 .btn--primary .btn__text,
 .btn--primary:visited .btn__text {
@@ -1222,7 +1222,7 @@ a {
   color: #fff;
 }
 .btn--primary:hover {
-  background: #546cc3;
+  background: #656667;
 }
 .btn--primary:active {
   background: #3b53a8;
@@ -3492,10 +3492,10 @@ span.label {
 }
 /*! -- Pillar Buttons -- */
 .btn.btn--primary {
-  border-color: #425cbb;
+  border-color: #232323;
 }
 .btn.btn--primary:hover {
-  border-color: #546cc3;
+  border-color: #656667;
 }
 .btn.btn--success {
   background: #64b671;

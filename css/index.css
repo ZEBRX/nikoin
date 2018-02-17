@@ -39,7 +39,8 @@ body
 .widgetDiv
 {
     height: 49px;
-    background-color: #425bbb;
+    font-family: roboto;
+    font-size: 30px;
     margin-left: 9%;
     margin-bottom: 3%;
     align-self: center;
@@ -47,8 +48,10 @@ body
 }
 .documentButton
 {
-    padding:0px;
+    padding: 10px;
     line-height: 1.25;
     padding-left: 2.25em;
     padding-right: 2.25em;
+    top: 60px;
+    position: relative;
 }
