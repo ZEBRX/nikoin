@@ -151,6 +151,8 @@ body
 .footerNav
 {
     display: inline-block;
+    width: 20%;
+    float: left;
 }
 .media
 {
@@ -288,6 +290,10 @@ footer
     .rightMedia
     {
         margin-left: 10%;
+    }
+    .navMobile
+    {
+        top: 40%;
     }
 
 }
