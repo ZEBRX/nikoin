@@ -1,134 +1,166 @@
-
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Nikoin - blockchain for businesses</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href=img/nikoin.ico rel=icon type=image/png>
-        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--For exchanges-->
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> <!-- presale -->
-        <link href="css/interface-icons.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/index.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
-         <link rel="stylesheet" href="css/time.css"> <!--For Timeline-->
-         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> <!--For Timeline-->
-        <link rel="stylesheet" type="text/css" href="css/base.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo2.css" />
-		<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'> <!--Nav bar icons for Medium, Telegram & Bitcoin icons-->
-		<link rel="stylesheet" href="css/style.css" media="screen" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script src="js/jquery.timelinr-0.9.6.js"></script>
-  		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
-		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
+<head>
+	<meta charset="utf-8">
+	<title>Nikoin - blockchain for businesses</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		// $(function(){
-		// 	$().timelinr({
-		// 		arrowKeys: 'true'
-		// 	})
-		// });
+	<!--Meta Property-->
+	<meta property="og:title" content="Nikoin">
+	<meta property="og:image" content="img/nikoin-wm-black.png">
+	<!--<meta property="og:description" content="">-->
+	<meta property="og:url" content="http://www.nikoin.com/">
+	<!--Meta Property Ends-->
+
+	<!--Modal-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="css/use_case.css">
+
+	<link href=img/nikoin.ico rel=icon type=image/png>
+	<link href="css/socicon.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--For exchanges-->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> <!-- presale -->
+	<link href="css/interface-icons.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="css/index.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/time.css"> <!--For Timeline-->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> <!--For Timeline-->
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo2.css" />
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'> <!--Nav bar icons for Medium, Telegram & Bitcoin icons-->
+	<link rel="stylesheet" href="css/style.css" media="screen" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/jquery.timelinr-0.9.6.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
+    // $(function(){
+    // 	$().timelinr({
+    // 		arrowKeys: 'true'
+    // 	})
+    // });
 	</script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     </head>
     <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)" style="background-color: #f4f4f4">
-    	<div class="nav-container">
-			<nav>
-		        <div class="utility-bar bg--secondary" style="background-color: #000000;">
-		            <div class="nav-module left" style="color:#f4f4f4;">
-		                <span class="type--fine-print">© Copyright 2017 Nikoin - All Rights Reserved</span>
-		            </div>
-		        </div>
-		
-		        <div class="nav-bar" data-fixed-at="700">
-		            <div class="nav-module logo-module left" >
-		                <a href="index.html"><img alt="Nikoin logo" class="logo logo-dark" src="img/logo-wm-black.png"></a>
-		            </div>
-		            <div class="nav-module menu-module left">
-		                <ul class="menu">
-		                    <li>
-		                        <a href="#">WHITEPAPER </a>
-		                    </li>
-		                    
-		                    <li>
-		                        <a href="#">BAAS </a>
-		                        <ul class="multi-column">
-		                            <li>
-		                                <ul style="text-align: left;">
-		                                    <li ><span class="multi-column__title"><a style="text-decoration: none;" href="#">IOT</a></span></li>
-		                                    <li><span class="multi-column__title"><a style="text-decoration: none;" href="#">Banking</a></span></li>
-		                                    <li><span class="multi-column__title"><a style="text-decoration: none;" href="#">Construction Industry</a></span></li>
-		                                    
-		                                </ul>
-		                            </li>
-		                            <li>
-		                                <ul style="text-align: left;">
-		                                    <li><span class="multi-column__title"><a style="text-decoration: none;" href="#">EVOTING</a></span></li><li><span class="multi-column__title"><a style="text-decoration: none;" href="#">Consume Loyalty</a></span></li><li><span class="multi-column__title"><a style="text-decoration: none;" href="#">Supply Chain management</a></span></li>
-		                                    
-		                                </ul>
-		                            </li>
-		                        </ul>
- 		                    </li><li>
-		                        <a href="#">Projects </a>
-		                        <ul class="multi-column" style="text-align: left;">
-		                            <li>
-		                                <ul>
-		                                    <li><span class="multi-column__title"><a style="text-decoration: none;" href="#">AGNOSCO</a></span></li>
-		                                </ul>
-		                            </li>
-		                            <li>
-		                                <ul>
-		                                    <li><span class="multi-column__title"><a style="text-decoration: none;" href="#">PARTUM</a></span></li>
-		                                </ul>
-		                            </li>
-		                        </ul>
-		                    </li><li>
-		                        <a href="#">LEGAL </a>
-		                    </li>
-		                </ul>
-		            </div>
+	<a name="about"></a>
+	<nav class="navbar navbar-default">
+		<div class="utility-bar bg--secondary" style="background-color: #000000;">
+			<div class="nav-module left" style="color:#f4f4f4;">
+				<span class="type--fine-print">© Copyright 2017 Nikoin - All Rights Reserved</span>
+			</div>
+		</div>
+		<div class="container-fluid">
 
-					<div class="nav-module menu-module right" id="socialNav" style="margin-right: 1%;">
-						<ul class="menu">
+			<div class="navbar-header">
+				<div class="nav-bar" data-fixed-at="700">
+					<div class="nav-module logo-module left" >
+						<a href="index.html"><img alt="Nikoin logo" class="logo logo-dark" src="img/logo-wm-black.png"></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse menu-module left "  style="text-align: center">
+				<ul class="menu">
+					<li>
+						<a href="#">WHITEPAPER </a>
+					</li>
+
+					<li>
+						<a href="#">BAAS </a>
+						<ul class="multi-column">
 							<li>
-								<a href="https://twitter.com/teamnikoin" target="_blank"><i class="socicon-twitter"></i></a>
+								<ul style="text-align: left;">
+									<li ><span class="multi-column__title"><a style="text-decoration: none;" href="#">IOT</a></span></li>
+									<li><span class="multi-column__title"><a style="text-decoration: none;" href="#">Banking</a></span></li>
+									<li><span class="multi-column__title"><a style="text-decoration: none;" href="#">Construction Industry</a></span></li>
+
+								</ul>
 							</li>
 							<li>
-								<a href="https://www.facebook.com/teamnikoin" target="_blank"><i class="socicon-facebook"></i></a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="socicon-instagram"></i></a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="socicon-medium"></i></a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="socicon-telegram"></i></a>
-							</li>
-							<li><a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="fa fa-slack" style="font-size:11px"></i></a>
-							</li>
-							<li><a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="fa fa-bitcoin" style="font-size:12px"></i></a>
+								<ul style="text-align: left;">
+									<li><span class="multi-column__title"><a style="text-decoration: none;" href="#">E-VOTING</a></span></li><li><span class="multi-column__title"><a style="text-decoration: none;" href="#">Consumer Loyalty</a></span></li><li><span class="multi-column__title"><a style="text-decoration: none;" href="#">Supply Chain management</a></span></li>
+
+								</ul>
 							</li>
 						</ul>
+					</li>
+					<li>
+						<a href="#">Projects </a>
+						<ul class="multi-column" style="text-align: left;">
+							<li>
+								<ul>
+									<li><span class="multi-column__title"><a style="text-decoration: none;" href="#">AGNOSCO</a></span></li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><span class="multi-column__title"><a style="text-decoration: none;" href="#">PARTUM</a></span></li>
+								</ul>
+							</li>
+						</ul>
+					</li><li>
+					<a href="#">LEGAL </a>
+				</li>
+				</ul>
+
+
+			</div><!-- /.navbar-collapse -->
+			<div class="nav-module menu-module right col-xs-6" style="width: 200px; " id="socialNav">
+				<div class="flex-container" style="background-color: #f4f4f4;" >
+					<div  style="margin-left: 12px;">
+						<a href="https://twitter.com/teamnikoin" target="_blank"><i  class="fab fa-twitter"></i></a>
+					</div>
+					<div style="margin-left: 12px;">
+						<a href="https://www.facebook.com/teamnikoin" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					</div>
+					<div style="margin-left: 12px;">
+						<a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="fab fa-instagram"></i></a>
+					</div>
+					<div style="margin-left: 12px;">
+						<a href="https://medium.com/@teamnikoin" target="_blank"><i class="fab fa-medium-m"></i></a>
+					</div>
+					<div style="margin-left: 12px;">
+						<a href="https://t.me/teamnikoin" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+					</div>
+					<div style="margin-left: 12px;">
+						<a href="https://nikoin.slack.com/" target="_blank"><i class="fab fa-slack-hash"></i></a>
+					</div>
+					<div style="margin-left: 12px;">
+						<a onclick="myFunction9000()"><i class="fab fa-bitcoin"></i></a>
 					</div>
 
-		        </div>
+				</div>
+			</div>
+		</div><!-- /.container-fluid -->
+	</nav>
+
+					<script>
+                        function myFunction9000() {
+                            alert("We are coming soon on bitcointalk.org \n                      Stay Tuned");
+                        }
+					</script>
 		        <div class="nav-mobile-toggle visible-sm visible-xs" style="top: 35%;">
 		            <i class="icon-Align-JustifyAll icon icon--sm"></i>
 		        </div>
-		    </nav>
+		    </>
 		
 		</div>
     	<div class="main-container">
     		<section style="padding: 0px;">
-		    <main>
-			<div class="content content--fixed">
-			</div>
 			<div class="content">
 				<canvas class="scene scene--full" id="scene"></canvas>
 				<script type="x-shader/x-vertex" id="wrapVertexShader">
@@ -200,6 +232,81 @@
 							</div>
 						</div>
 					</section>
+	<a name="ucase"></a>
+		<section class="stats-1 bg--secondary" id=application style="margin-top: -30px; margin-bottom: -40px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h2 style="text-align: center">NIKoin Applications<br></h2>
+						<h4 style="text-align: center">Click to Explore</h4>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="feature feature-1 text-center boxed--lg featureDiv" data-toggle="modal" data-target="#iot">
+							<i class="icon color--primary icon-Wifi-2 icon--lg"></i>
+							<h3>IoT</h3>
+							<p style="margin-top: -10px; font-family: sans-serif;">
+								Machine to Machine Automated transactions.
+							</p>
+
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="feature feature-1 text-center boxed--lg featureDiv" data-toggle="modal" data-target="#evoting">
+							<i class="icon icon--lg icon-Bodybuilding color--primary"></i>
+							<h3>e-Voting</h3>
+
+							<p style="margin-top: -10px; font-family: sans-serif;">
+								Voting through a digital platform, secure and immutable.
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-4 ">
+						<div class="feature feature-1 text-center boxed--lg featureDiv" data-toggle="modal" data-target="#supplychain">
+							<i class="icon color--primary icon-Money-Smiley icon--lg"></i>
+							<h3>Supply Chain</h3>
+							<p style="margin-top: -10px; font-family: sans-serif;">
+								Asset Digitisation and tracking.
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="feature feature-1 text-center boxed--lg featureDiv" data-toggle="modal" data-target="#banking">
+							<i class="icon color--primary icon-Bank icon--lg"></i>
+							<h3>Banking</h3>
+							<p style="margin-top: -10px; font-family: sans-serif;">
+								Payments and audits, structured.
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="feature feature-1 text-center boxed--lg featureDiv" data-toggle="modal" data-target="#consumer">
+							<i class="icon color--primary icon-Add-UserStar icon--lg"></i>
+							<h3>Consumer Loyalty</h3>
+							<p style="margin-top: -10px; font-family: sans-serif;">
+								Brand-customer connect, Blockchain enabled.
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="feature feature-1 text-center boxed--lg featureDiv" data-toggle="modal" data-target="#construction">
+							<i class="icon color--primary icon-Office icon--lg"></i>
+							<h3>Construction Industry</h3>
+							<p style="margin-top: -10px; font-family: sans-serif;">
+								Contract Management and financial auditing.
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+
+
 					<section style="padding: 0px;">
 						<img class="infigraphic" src="img/nikoin-blockchain-infographic(solid).png">
 						<div class="container">
@@ -233,7 +340,7 @@
 		            <section style=" padding: 0px;" class="blockNikoin">
 						<div class="container" style="width: 100%;">
 				                <div class="row">
-									<div class="col-sm-4 test22 exborder exshadow">
+									<div class="col-sm-4 test22 exborder exshadow" style="position:relative; z-index: 5; box-shadow: 1px 1px 8px 4px #000;">
 										<h3 style="color: #f4f4f4; text-align: center; padding-top: 2%;">Get Nikoin</h3>
 										<h5 style="color: #f4f4f4; text-align: center;">Soon to be listed on the following exchanges :</h5>
 										<div  class="col-sm-6">
@@ -327,7 +434,7 @@
 								</a>
 								<a class="btn btn--sm" href="#" style="background-color: #f4f4f4;">							
 									<span class="btn__text" style="color:#232323">
-										Closing Date
+										View Timeline
 									</span>
 								</a>
 							</div>
@@ -342,63 +449,61 @@
 		                <a href="#"><img width="70%" class="footerlogo" alt="Nikoin" class="logo" src="img/logo-wm-white.png"></a>
 		                <h6 style="margin-top: -10%;" class="footerquote">Blockchain for businesses.</h6>
 		            </div>
-		            <div class="col-md-5 col-sm-8 footer">
+		            <div class="col-md-6 col-sm-12 footer">
 		                <h5 style="font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;text-transform: uppercase; letter-spacing: 1px; font-size: 10px;">Navigate</h5>
 		                <div class="footerNav">
-		                <ul class="footer__navigation" style="text-align: left; width: 130%">
+		                <ul class="footer__navigation" style="text-align: left; width: 150%">
 		                    <li>
-		                        <a href="#"><span>About</span></a>
+		                        <a href="#about"><span>About</span></a>
 		                    </li>
 		                    <li>
-		                        <a href="#"><span>Use Cases</span></a>
+		                        <a href="#ucase"><span>Use Cases</span></a>
 		                    </li>
 		                    <li>
-		                        <a href="#"><span>Whitepaper</span></a>
+		                        <a href="launch.html"><span>Whitepaper</span></a>
 		                    </li>
 		                    <li>
-		                        <a href="#"><span>Explorer</span></a>
+		                        <a href="launch.html"><span>Explorer</span></a>
 		                    </li>
                             <li>
-                                <a href="#"><span>Blog</span></a>
+                                <a href="launch.html"><span>Blog</span></a>
                             </li>
                             <li>
-                                <a href="#"><span>Bounty Program</span></a>
+                                <a href="launch.html"><span>Bounty Program</span></a>
                             </li>
+							<li>
+								<a href="launch.html" style="min-width: 400px;"><span>Startup Engagement</span></a>
+							</li>
 		                </ul>
 		                </div>
 		                <div class="footerNav" style="margin-left: 30%;">
 		                <ul class="footer__navigation" style="text-align: left; width: 150%;">
                             <li>
-                                <a href="#"><span>FAQ</span></a>
+                                <a href="launch.html"><span>FAQ</span></a>
                             </li>
                             <li>
-		                        <a href="#"><span>Terms</span></a>
+		                        <a href="launch.html"><span>Terms</span></a>
 		                    </li>
 		                    <li>
-		                        <a href="#"><span>Legal</span></a>
+		                        <a href="launch.html"><span>Legal</span></a>
 		                    </li>
 		                    <li>
-		                        <a href="#"><span>Terms of Service</span></a>
+		                        <a href="launch.html"><span>Terms of Service</span></a>
 		                    </li>
                             <li>
-                                <a href="#"><span>Privacy Policy</span></a>
+                                <a href="launch.html"><span>Privacy Policy</span></a>
                             </li>
                             <li>
-                                <a href="#"><span>Press</span></a>
+                                <a href="launch.html"><span>Press</span></a>
                             </li>
+							<li>
+								<a href="launch.html"><span>Nikoin Fellowship</span></a>
+							</li>
+
 		                </ul>
 		                </div>
 		            </div>
-		            <div class="socialIcons">
-		            	<a href="https://twitter.com/teamnikoin" target="_blank"><i class="socicon-twitter socialicon"></i></a>
-                        <a href="https://www.facebook.com/teamnikoin" target="_blank"><i class="socicon-facebook socialicon"></i></a>
-                        <a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="socicon-instagram" socialicon></i></a>
-                        <a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="socicon-medium socialicon"></i></a>
-                        <a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="socicon-telegram socialicon"></i></a>
-                        <a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="fa fa-slack socialicon" style="font-size:115%"></i></a>
-                        <a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="fa fa-bitcoin" style="font-size:118%;"></i></a>
-		            </div>
-		            <div class="col-md-4 col-sm-12 subscribeBlock">
+		            <div class="col-md-3 col-sm-12 subscribeBlock">
 		                <h5 style="font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;text-transform: uppercase; letter-spacing: 1px; font-size: 10px;">Subscribe</h5>
 		                <p style="text-align: left; ">Get monthly updates and free resources.</p>
 		                <form class="form--merge form--no-labels" action="https://nikoin.us17.list-manage.com/subscribe/post?u=50127d2366813574adc08f7fa&amp;id=4afe3c5596"><input type="email" value="" name="EMAIL" class="col-md-8 col-sm-6" placeholder="email address" required=""><div aria-hidden="true" class="hidden"><input type="text" name="b_50127d2366813574adc08f7fa_4afe3c5596" tabindex="-1" value=""></div><input type="submit" value="Go" name="go" class="col-md-4 col-sm-6"></form>
@@ -406,39 +511,153 @@
 		        </div>
 		        <div class="row footer__lower text-center-xs" style="padding: 0px;">
 		            <div class="col-sm-12">
-		                <hr>
+		                <hr style="margin: 0px;padding: 0px;">
 		            </div>
+
 		            <div class="col-sm-6" style="text-align:left; ">
-		                <span class="type--fine-print">© Copyright <span class="update-year">2018</span> Nikoin - All Rights Reserved</span>
+		                <span class="type--fine-print">© Copyright <span>2018</span> Nikoin - All Rights Reserved</span>
 		            </div>
-		            					<div class="nav-module menu-module right" style="margin-right: 1%;">
-						<ul class="menu">
-							<li>
-								<a href="https://twitter.com/teamnikoin" target="_blank"><i class="socicon-twitter"></i></a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/teamnikoin" target="_blank"><i class="socicon-facebook"></i></a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="socicon-instagram"></i></a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="socicon-medium"></i></a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="socicon-telegram"></i></a>
-							</li>
-							<li><a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="fa fa-slack" style="font-size:11px"></i></a>
-							</li>
-							<li><a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="fa fa-bitcoin" style="font-size:12px"></i></a>
-							</li>
-						</ul>
-					</div>
+
 		        </div>
 		    </div>
 		</footer>
 		</div>
-		
+	<div class="container">
+
+		<!-- Modal -->
+		<div class="modal fade" id="iot" role="dialog">
+			<div class="modal-dialog" style="height: 1024px; width: 768px;">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+
+					<div class="modal-body" style="padding:0; width: 100%; z-index: 1000;">
+						<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSC-cuXLFVfRdYVD69FEnAlEu2YAE2cdvTtIDndneeX0am96aj83VMdi9bNUndX5xA3cQEcRh_PoUOI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1024" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!--IOT-->
+
+	<!--e-voting-->
+
+	<div class="container">
+
+		<!-- Modal -->
+		<div class="modal fade" id="evoting" role="dialog">
+			<div class="modal-dialog" style="height: 1024px; width: 768px;">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+
+					<div class="modal-body" style="padding:0; width: 100%; z-index: 1000;">
+						<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSC-cuXLFVfRdYVD69FEnAlEu2YAE2cdvTtIDndneeX0am96aj83VMdi9bNUndX5xA3cQEcRh_PoUOI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1024" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!--e-voting-->
+
+	<!--suoply_chain-->
+
+	<div class="container">
+
+		<!-- Modal -->
+		<div class="modal fade" id="supplychain" role="dialog">
+			<div class="modal-dialog" style="height: 1024px; width: 768px;">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+
+					<div class="modal-body" style="padding:0; width: 100%; z-index: 1000;">
+						<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSC-cuXLFVfRdYVD69FEnAlEu2YAE2cdvTtIDndneeX0am96aj83VMdi9bNUndX5xA3cQEcRh_PoUOI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1024" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!--supply_chain-->
+
+	<!--Banking-->
+
+	<div class="container">
+
+		<!-- Modal -->
+		<div class="modal fade" id="banking" role="dialog">
+			<div class="modal-dialog" style="height: 1024px; width: 768px;">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+
+					<div class="modal-body" style="padding:0; width: 100%; z-index: 1000;">
+						<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSC-cuXLFVfRdYVD69FEnAlEu2YAE2cdvTtIDndneeX0am96aj83VMdi9bNUndX5xA3cQEcRh_PoUOI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1024" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!--Banking-->
+
+	<!--Consumer-->
+
+	<div class="container">
+
+		<!-- Modal -->
+		<div class="modal fade" id="consumer" role="dialog">
+			<div class="modal-dialog" style="height: 1024px; width: 768px;">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+
+					<div class="modal-body" style="padding:0; width: 100%; z-index: 1000;">
+						<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSC-cuXLFVfRdYVD69FEnAlEu2YAE2cdvTtIDndneeX0am96aj83VMdi9bNUndX5xA3cQEcRh_PoUOI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1024" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!--Consumer-->
+
+	<!--Construction-->
+
+	<div class="container">
+
+		<!-- Modal -->
+		<div class="modal fade" id="construction" role="dialog">
+			<div class="modal-dialog" style="height: 1024px; width: 768px;">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+
+					<div class="modal-body" style="padding:0; width: 100%; z-index: 1000;">
+						<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSC-cuXLFVfRdYVD69FEnAlEu2YAE2cdvTtIDndneeX0am96aj83VMdi9bNUndX5xA3cQEcRh_PoUOI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1024" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!--construction-->
+
 		<script  src="js/Scramble.js"></script>		
 		<script src="js/jquery-2.1.4.min.js"></script>
  		<script src="js/demo.js"></script>
