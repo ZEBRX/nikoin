@@ -1,19 +1,55 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Nikoin - blockchain for businesses</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--Meta Property-->
+	<meta property="og:title" content="Nikoin">
+	<meta property="og:image" content="img/nikoin-wm-black.png">
+	<!--<meta property="og:description" content="">-->
+	<meta property="og:url" content="http://www.nikoin.com/">
+	<!--Meta Property Ends-->
+
+	<!--Modal-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+	<link rel="stylesheet" href="css/vtimeline.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="css/reset_timeline.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style_timeline.css"> <!-- Resource style -->
 	<script src="js/modernizr_timeline.js"></script> <!-- Modernizr -->
-  	
-	<title>Responsive Vertical Timeline</title>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href=img/nikoin.ico rel=icon type=image/png>
+	<link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/socicon.css" rel="stylesheet" type="text/css" media="all"> <!-- Social Icon -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--For exchanges-->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> <!-- presale -->
+	<link href="css/interface-icons.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="css/index.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/time.css"> <!--For Timeline-->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> <!--For Timeline-->
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109266113-1"></script>
+	<link rel="stylesheet" type="text/css" href="css/demo2.css" />
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'> <!--Nav bar icons for Medium, Telegram & Bitcoin icons-->
+	<link rel="stylesheet" href="css/style.css" media="screen" />
+	<script src="js/jquery.timelinr-0.9.6.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109266113-1"></script>
 	<script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -21,164 +57,199 @@
 
         gtag('config', 'UA-109266113-1');
 	</script>
-	<meta charset="utf-8">
-	<link href=img/favicon.png rel=icon type=image/png>
-	<title>Nikoin - Blockchain for Business Applications</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link href="css/stiched.css" rel="stylesheet" type="text/css" media="all">
-	<link href="css/testzoom.css" rel="stylesheet" type="text/css" media="all">
-	<link href="css/socicon.css" rel="stylesheet" type="text/css" media="all">
-	<link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-	<link href="css/interface-icons.css" rel="stylesheet" type="text/css" media="all"/>
-	<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/>
-	<link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
-	<link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
-	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 </head>
 <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
 
-<div class="nav-container"><nav>
+<div class="nav-container">
+    <nav>
+		<div class="utility-bar bg--secondary" style="background-color: #000000;">
+			<div class="nav-module left" style="color:#f4f4f4;">
+				<span class="type--fine-print">© Copyright 2018 Nikoin - All Rights Reserved</span>
+			</div>
+		</div>
 
-	<div class="utility-bar bg--secondary">
-		<div class="nav-module left">
-			<span class="type--fine-print">© Copyright 2017 Nikoin - All Rights Reserved</span>
-		</div>
-		<!--Paste here-->
-	</div>
+		<div class="nav-bar" data-fixed-at="700">
+			<div class="nav-module logo-module left" >
+				<a href="index.html"><img alt="Nikoin logo" class="logo logo-dark" src="img/logo-wm-black.png"></a>
+			</div>
+			<div class="nav-module menu-module left">
+				<ul class="menu">
+					<li>
+						<a href="http://nikoin.com/docs/whitepaper.pdf">WHITEPAPER </a>
+					</li>
 
-	<div class="nav-bar" data-fixed-at="700">
-		<div class="nav-module logo-module left">
-			<a href="index.html"><div class="vnu"><img alt="logo" class="logo logo-dark" src="img/nikoin-black.png"></div> <img alt="logo" class="logo logo-light" src="img/logo-light.png"></a>
+					<li>
+						<a href="#">BAAS </a>
+						<ul class="multi-column">
+							<li>
+								<ul style="text-align: left;">
+									<li ><span class="multi-column__title" ><a href="index.html#ucase" style="text-decoration: none;" >IOT</a></span></></li>
+									<li ><span class="multi-column__title" ><a href="index.html#ucase" style="text-decoration: none;" >Banking</a></span></></li>
+									<li ><span class="multi-column__title" ><a href="index.html#ucase" style="text-decoration: none;" >Construction Industry</a></span></li>
+
+								</ul>
+							</li>
+							<li>
+								<ul style="text-align: left;">
+									<li><span class="multi-column__title" ><a href="index.html#ucase" style="text-decoration: none;" >E-VOTING</a></span></li>
+									<li><span class="multi-column__title" ><a href="index.html#ucase" style="text-decoration: none;" >Consumer Loyalty</a></span></li>
+									<li><span class="multi-column__title "><a href="index.html#ucase" style="text-decoration: none;" >Supply Chain management</a></span></li>
+
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Projects </a>
+						<ul class="multi-column" style="text-align: left;">
+							<li>
+								<ul>
+									<li><span class="multi-column__title"><a style="text-decoration: none;" href="agnosco.nikoin.com">AGNOSCO</a></span></li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><span class="multi-column__title"><a style="text-decoration: none;" href="partum.nikoin.com">PARTUM</a></span></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">PROGRAM </a>
+						<ul class="multi-column" style="text-align: left;">
+							<li>
+								<ul>
+									<li ><span class="multi-column__title"><a style="text-decoration: none;" href="launch.html">BOUNTY PROGRAM</a></span></li>
+									<li><span class="multi-column__title"><a style="text-decoration: none;" href="Fellowship-Program.html">NIKOIN FELLOWSHIP</a></span></li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><span class="multi-column__title"><a style="text-decoration: none;" href="Startup-Engagement-Program.html">STARTUP ENGAGEMENT</a></span></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="http://nikoin.com/launch.html">LEGAL </a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="nav-module menu-module right col-xs-6" style="width: 200px; " id="socialNav">
+				<div class="flex-container" style="background-color: #f4f4f4;" >
+					<div  style="margin-left: 12px;">
+						<a href="https://twitter.com/teamnikoin" target="_blank"><i  class="socicon-twitter"></i></a>
+					</div>
+					<div style="margin-left: 12px;">
+						<a href="https://www.facebook.com/teamnikoin" target="_blank"><i class="socicon-facebook"></i></a>
+					</div>
+					<div style="margin-left: 12px;">
+						<a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="socicon-instagram"></i></a>
+					</div>
+					<div style="margin-left: 12px;">
+						<a href="https://medium.com/@teamnikoin" target="_blank"><i class="socicon-medium"></i></a>
+					</div>
+					<div style="margin-left: 12px;">
+						<a href="https://t.me/teamnikoin" target="_blank"><i class="socicon-telegram"></i></a>
+					</div>
+					<div style="margin-left: 12px;">
+						<a href="https://nikoin.slack.com/" target="_blank"><i class="fa fa-slack"></i></a>
+					</div>
+					<div style="margin-left: 12px;">
+						<a href="launch.html"><i class="fa fa-bitcoin"></i></a>
+					</div>
+
+				</div>
+			</div>
+
 		</div>
-		<div class="nav-module menu-module left">
-			<ul class="menu">
-				<li>
-					<a href="#about">About</a>
-				</li>
-				<li class="vpf">
-					<a href="launch.html" class="inner-link" target="_blank">Whitepaper</a>
-				</li><li class="vpf">
-				<a href="#application">usecases&nbsp;</a>
-			</li><li class="vpf">
-				<a href="launch.html" target="_blank">token sale&nbsp;</a>
-			</li><li class="vpf">
-				<a href="#">BLOG </a>
-			</ul>
-		</div>
-		<div class="nav-module menu-module right">
-			<ul class="menu">
-				<li>
-					<a href="https://twitter.com/teamnikoin" target="_blank"><i class="socicon-twitter"></i></a>
-				</li>
-				<li>
-					<a href="launch.html" target="_blank"><i class="icon-Bitcoin"></i></a>
-				</li>
-				<li>
-					<a href="https://www.facebook.com/teamnikoin" target="_blank"><i class="socicon-facebook"></i></a>
-				</li>
-				<li>
-					<a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="socicon-instagram"></i></a>
-				</li>
-			</ul>
-		</div>
-		<div class="nav-mobile-toggle visible-sm visible-xs">
+		<div class="nav-mobile-toggle visible-sm visible-xs" style="top: 35%;">
 			<i class="icon-Align-JustifyAll icon icon--sm"></i>
 		</div>
-</nav>
+	</nav>
+
 </div>
+
 
     		<h1 class="stitched" style=" text-align: center;margin-bottom: -3%; font-size: 40px;">TIMELINE</h1>
 
+<div>
 
-	<section id="cd-timeline" class="cd-container">
+	<section id="cd-timeline" class="cd-container" >
 		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture ">
+			<div class="cd-timeline-img cd-location">
 				<img src="img/left_arrow.svg" alt="Picture">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
 				<h2>Listing on Exchanges</h2>
-				<p>Global Exchange trading starts<br>Nikoin listed on atleast 2 global exchanges</p>
+				<p>Global Exchange trading starts<br>Nikoin listed on at least 2 global exchanges</p>
 				<!--<a href="#0" class="cd-read-more">Read more</a>-->
-				<span class="cd-date"><h2>15th Mar 2018</h2></span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="img/right_arrow.svg" alt="Movie">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>iOS Wallet Launch</h2>
-				<p>iOS wallet live<br>Conference 1 - eVoting and Blockchain</p>
-				<!--<a href="#0" class="cd-read-more">Read more</a>-->
-				<span class="cd-date"><h2>15th Feb 2018</h2></span>
+				<span class="cd-date"><h2>15th May 2018</h2></span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="img/left_arrow.svg" alt="Picture">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>Wallet Launch</h2>
-				<p>Android wallet live</p>
-				<!--<a href="#0" class="cd-read-more">Read more</a>-->
-				<span class="cd-date"><h2>30th Jan 2018</h2></span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
 				<img src="img/right_arrow.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
 				<h2>ICO Phase 2</h2>
-				<p>Conference 3 - Technology<br>Conference 1 - Banking and Blockchain</p>
-				<!--<a href="#0" class="cd-read-more">Read more</a>-->
-				<span class="cd-date"><h2>15th Jan 2018</h2></span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="img/left_arrow.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>ICO</h2>
 				<p>Conference 2 - Investments<br>Conference 1 - IoT and Blockchain</p>
 				<!--<a href="#0" class="cd-read-more">Read more</a>-->
-				<span class="cd-date"><h2>5th Jan 2017</h2></span>
+				<span class="cd-date"><h2>16th Apr 2018</h2></span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-location">
-				<img src="img/right_arrow.svg" alt="Movie">
+				<img src="img/left_arrow.svg" alt="Movie">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
-				<h2>ICO</h2>
+				<h2>ICO Phase 1</h2>
 				<p>Tokens go live<br>All bonuses creditedn</p>
-				<span class="cd-date"><h2>31st Dec 2017</h2></span>
+				<span class="cd-date"><h2>17th Mar 2018</h2></span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
+				<img src="img/right_arrow.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Whitepaper V0.8 Public</h2>
+				<!--<a href="#0" class="cd-read-more">Read more</a>-->
+				<span class="cd-date"><h2>27th Feb 2018</h2></span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
 				<img src="img/left_arrow.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
 				<h2>Pre-Sale Phase 2</h2>
-				<p>Conference 2 - Technology<br>Conference 1 - Investments</p>
+				<p>Conference 1 - Technology<br>Conference 2 - Investments</p>
+				<!--<a href="#0" class="cd-read-more">Read more</a>-->
+				<span class="cd-date"><h2>15th Feb 2017</h2></span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="img/right_arrow.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Pre-Sale Phase 1</h2>
+				<p>Conference 1 - Technology<br>Conference 1 - Cryptocurrency</p>
 				<!--<a href="#0" class="cd-read-more">Read more</a>-->
 				<span class="cd-date"><h2>15th Dec 2017</h2></span>
 			</div> <!-- cd-timeline-content -->
@@ -186,31 +257,18 @@
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-location">
-				<img src="img/right_arrow.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>Payout Dashboard Launch</h2>
-				<p>Token Holders recieve Nikoins in their Wallets</p>
-				<!--<a href="#0" class="cd-read-more">Read more</a>-->
-				<span class="cd-date"><h2>5th Dec 2017</h2></span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
 				<img src="img/left_arrow.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
-				<h2>Whitepaper V1 Public</h2>
+				<h2>Whitepaper V0.5 Public</h2>
 				<!--<a href="#0" class="cd-read-more">Read more</a>-->
 				<span class="cd-date"><h2>1st Dec 2017</h2></span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
 		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
+			<div class="cd-timeline-img cd-picture">
 				<img src="img/right_arrow.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
 
@@ -223,21 +281,8 @@
 		</div> <!-- cd-timeline-block -->
 
 		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="img/left_arrow.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>Pre-Sale Phase 1</h2>
-				<p>Conference 1 - Technology<br>Conference 1 - Cryptocurrency</p>
-				<!--<a href="#0" class="cd-read-more">Read more</a>-->
-				<span class="cd-date"><h2>15th Nov 2017</h2></span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-location">
-				<img src="img/right_arrow.svg" alt="Location">
+				<img src="img/left_arrow.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
@@ -250,7 +295,7 @@
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="img/left_arrow.svg" alt="Location">
+				<img src="img/right_arrow.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
@@ -263,7 +308,7 @@
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-location">
-				<img src="img/right_arrow.svg" alt="Location">
+				<img src="img/left_arrow.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
@@ -277,7 +322,7 @@
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="img/left_arrow.svg" alt="Location">
+				<img src="img/right_arrow.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
@@ -291,7 +336,7 @@
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-location">
-				<img src="img/right_arrow.svg" alt="Location">
+				<img src="img/left_arrow.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
@@ -301,10 +346,13 @@
 				<span class="cd-date"><h2>5th Sept 2017</h2></span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
-
-
 	</section> <!-- cd-timeline -->
+</div>
+<canvas></canvas>
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/main_timeline.js"></script> <!-- Resource jQuery -->
+<script  src="js/vtimeline.js"></script>
+
 </body>
 </html>
