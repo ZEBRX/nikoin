@@ -257,3 +257,12 @@ a.demo--current {
 		margin: 0;
 	}
 }
+.flex-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-container > div {
+	text-align: center;
+	font-size: 10px;
+}
