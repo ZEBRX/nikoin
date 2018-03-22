@@ -108,6 +108,10 @@ body
     margin-left: 0px;
     
 }
+#socialNavMobile
+{
+    display: none;
+}
 #associations
 {
     -webkit-box-align: center; position: relative; height: 82.5%; width: 100%; margin-top: 10%;
@@ -303,9 +307,9 @@ footer
         display: inline-block;
         width: 80%;
     }
-    #socialNav
+    #socialNavMobile
     {
-        display: none;
+        display: inline-block;
     }
     #featureBlk
     {
