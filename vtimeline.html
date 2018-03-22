@@ -2,17 +2,30 @@
 <html lang="en" class="no-js">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="css/vtimeline.css">
+    <!--Meta Property-->
+    <meta property="og:title" content="Nikoin">
+    <meta property="og:image" content="img/nikoin-wm-black.png">
+    <!--<meta property="og:description" content="">-->
+    <meta property="og:url" content="http://www.nikoin.com/">
+    <!--Meta Property Ends-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116123389-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-116123389-1');
+    </script>
+    <link rel="stylesheet" href="css/vtimeline.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="css/reset_timeline.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style_timeline.css"> <!-- Resource style -->
 	<script src="js/modernizr_timeline.js"></script> <!-- Modernizr -->
-  	
-	<title>Responsive Vertical Timeline</title>
+
+	<title>NIKOIN Timeline</title>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109266113-1"></script>
@@ -24,10 +37,12 @@
         gtag('config', 'UA-109266113-1');
 	</script>
 	<meta charset="utf-8">
-	<link href=img/favicon.png rel=icon type=image/png>
+    <link href=img/nikoin.ico rel=icon type=image/png>
 	<title>Nikoin - Blockchain for Business Applications</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/index.css" rel="stylesheet" type="text/css" media="all">
 	<link href="css/hover.css" rel="stylesheet" type="text/css" media="all">
 	<link href="css/testzoom.css" rel="stylesheet" type="text/css" media="all">
 	<link href="css/socicon.css" rel="stylesheet" type="text/css" media="all">
@@ -38,64 +53,131 @@
 	<link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
 	<link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
 	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <style>.flex-container {
+        display: flex;
+        flex-direction: row;
+    }
 
+    .flex-container > div {
+        text-align: center;
+        font-size: 10px;
+    }</style>
 </head>
 <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
 
 <div class="nav-container">
     <nav>
 
-	<div class="utility-bar bg--secondary">
-		<div class="nav-module left">
-			<span class="type--fine-print">© Copyright 2017 Nikoin - All Rights Reserved</span>
+        <div class="utility-bar bg--secondary" style="background-color: #000000;">
+        <div class="nav-module left" style="color:#f4f4f4;">
+			<span class="type--fine-print">© Copyright 2018 Nikoin - All Rights Reserved</span>
 		</div>
 		<!--Paste here-->
 	</div>
 
 	<div class="nav-bar" data-fixed-at="700" >
-		<div class="nav-module logo-module left">
-			<a href="index.html"><div class="vnu"><img alt="logo" class="logo logo-dark" src="img/nikoin-black.png"></div> <img alt="logo" class="logo logo-light" src="img/logo-light.png"></a>
-		</div>
-		<div class="nav-module menu-module left">
-			<ul class="menu">
-				<li>
-					<a href="#about">About</a>
-				</li>
-				<li class="vpf">
-					<a href="launch.html" class="inner-link" target="_blank">Whitepaper</a>
-				</li><li class="vpf">
-				<a href="#application">usecases&nbsp;</a>
-			</li><li class="vpf">
-				<a href="launch.html" target="_blank">token sale&nbsp;</a>
-			</li><li class="vpf">
-				<a href="#">BLOG </a>
-			</ul>
-		</div>
-		<div class="nav-module menu-module right">
-			<ul class="menu">
-				<li>
-					<a href="https://twitter.com/teamnikoin" target="_blank"><i class="socicon-twitter"></i></a>
-				</li>
-				<li>
-					<a href="launch.html" target="_blank"><i class="icon-Bitcoin"></i></a>
-				</li>
-				<li>
-					<a href="https://www.facebook.com/teamnikoin" target="_blank"><i class="socicon-facebook"></i></a>
-				</li>
-				<li>
-					<a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="socicon-instagram"></i></a>
-				</li>
-			</ul>
-		</div>
+        <div class="nav-module logo-module left" >
+            <a href="index.html"><img alt="Nikoin logo" class="logo logo-dark" src="img/logo-wm-black.png"></a>
+        </div>
+        <div class="nav-module menu-module left">
+            <ul class="menu">
+                <li>
+                    <a href="#">WHITEPAPER </a>
+                </li>
+
+                <li>
+                    <a href="#">BAAS </a>
+                    <ul class="multi-column">
+                        <li>
+                            <ul style="text-align: left;">
+                                <li ><span class="multi-column__title"><a style="text-decoration: none;" href="#">IOT</a></span></li>
+                                <li><span class="multi-column__title"><a style="text-decoration: none;" href="#">Banking</a></span></li>
+                                <li><span class="multi-column__title"><a style="text-decoration: none;" href="#">Construction Industry</a></span></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <ul style="text-align: left;">
+                                <li><span class="multi-column__title"><a style="text-decoration: none;" href="#">E-VOTING</a></span></li><li><span class="multi-column__title"><a style="text-decoration: none;" href="#">Consumer Loyalty</a></span></li><li><span class="multi-column__title"><a style="text-decoration: none;" href="#">Supply Chain management</a></span></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Projects </a>
+                    <ul class="multi-column" style="text-align: left;">
+                        <li>
+                            <ul>
+                                <li><span class="multi-column__title"><a style="text-decoration: none;" href="#">AGNOSCO</a></span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><span class="multi-column__title"><a style="text-decoration: none;" href="#">PARTUM</a></span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">PROGRAM </a>
+                    <ul class="multi-column" style="text-align: left;">
+                        <li>
+                            <ul>
+                                <li ><span class="multi-column__title"><a style="text-decoration: none;" href="#">BOUNTY PROGRAM</a></span></li>
+                                <li><span class="multi-column__title"><a style="text-decoration: none;" href="#">NIKOIN FELLOWSHIP</a></span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><span class="multi-column__title"><a style="text-decoration: none;" href="#">STARTUP ENGAGEMENT</a></span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">LEGAL </a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-module menu-module right col-xs-6" style="width: 200px; " id="socialNav">
+            <div class="flex-container" style="background-color: #f4f4f4;" >
+                <div  style="margin-left: 12px;">
+                    <a href="https://twitter.com/teamnikoin" target="_blank"><i  class="fab fa-twitter"></i></a>
+                </div>
+                <div style="margin-left: 12px;">
+                    <a href="https://www.facebook.com/teamnikoin" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div style="margin-left: 12px;">
+                    <a href="https://www.instagram.com/teamnikoin/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div style="margin-left: 12px;">
+                    <a href="https://medium.com/@teamnikoin" target="_blank"><i class="fab fa-medium-m"></i></a>
+                </div>
+                <div style="margin-left: 12px;">
+                    <a href="https://t.me/teamnikoin" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                </div>
+                <div style="margin-left: 12px;">
+                    <a href="https://nikoin.slack.com/" target="_blank"><i class="fab fa-slack-hash"></i></a>
+                </div>
+                <div style="margin-left: 12px;">
+                    <a href="launch.html"><i class="fab fa-bitcoin"></i></a>
+                </div>
+
+            </div>
+        </div>
 		<div class="nav-mobile-toggle visible-sm visible-xs">
 			<i class="icon-Align-JustifyAll icon icon--sm"></i>
 		</div>
+    </div>
 </nav>
 
 </div>
 
 
-    		<h1 class="stitched" style=" text-align: center;margin-bottom: -3%; font-size: 40px;">TIMELINE</h1>
+    		<h1 class="stitched" style=" text-align: center; margin-bottom: -3%; margin-top:10px; font-size: 40px;">TIMELINE</h1>
 
 <div>
 
@@ -270,11 +352,106 @@
 		</div> <!-- cd-timeline-block -->
 	</section> <!-- cd-timeline -->
 </div>
-<canvas></canvas>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/main_timeline.js"></script> <!-- Resource jQuery -->
-<script  src="js/vtimeline.js"></script>
+<canvas></canvas>
+<div>
+<footer class="bg--dark footer-1 text-center-xs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-4">
+                <a href="#"><img width="80%" class="footerlogo" alt="Nikoin" class="logo" src="img/nikoin-logo-wm(white).png"></a>
+            </div>
+            <div class="col-md-6 col-xs-12 footer">
+                <h5 style="text-align: left; font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;text-transform: uppercase; letter-spacing: 1px; font-size: 10px;margin:0;padding:0">Navigate</h5>
+                <div class="footerNav">
+                    <ul class="footer__navigation" style="text-align: left; width: 130%">
+                        <li>
+                            <a href="#"><span>About</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Use Cases</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Whitepaper</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Explorer</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Blog</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Bounty Program</span></a>
+                        </li>
+                        <li>
+                            <a href="launch.html" style="min-width: 400px;"><span>Startup Engagement</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footerNav" style="margin-left: 30%;">
+                    <ul class="footer__navigation" style="text-align: left; width: 150%;">
+                        <li>
+                            <a href="#"><span>FAQ</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Terms</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Legal</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Terms of Service</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Privacy Policy</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Press</span></a>
+                        </li>
+                        <li>
+                            <a href="launch.html"><span>Nikoin Fellowship</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 subscribeBlock">
+                <h5 style="font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;text-transform: uppercase; letter-spacing: 1px; font-size: 10px;">Subscribe</h5>
+                <p style="text-align: left; ">Get monthly updates and free resources.</p>
+                <form class="form--merge form--no-labels" action="https://nikoin.us17.list-manage.com/subscribe/post?u=50127d2366813574adc08f7fa&amp;id=4afe3c5596"><input type="email" value="" name="EMAIL" class="col-md-8 col-sm-6" placeholder="email address" required=""><div aria-hidden="true" class="hidden"><input type="text" name="b_50127d2366813574adc08f7fa_4afe3c5596" tabindex="-1" value=""></div><input type="submit" value="Go" name="go" class="col-md-4 col-sm-6"></form>
+            </div>
+        </div>
+        <div class="row footer__lower text-center-xs" style="padding: 0px;">
+            <div class="col-sm-12">
+                <hr style="margin: 0px;padding: 0px;">
+            </div>
+            <div class="col-sm-12" style="text-align:center; ">
+                <span class="type--fine-print">© Copyright <span class="update-year">2018</span> Nikoin - All Rights Reserved</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="js/use_case.js"></script>
+
+<script  src="js/Scramble.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/demo.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/demo2.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/scrollreveal.min.js"></script>
+<script src="js/easypiechart.min.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/index.js"></script>
+<script src="js/time.js"></script>
+<script src="js/scripts.js"></script>
+
 
 </body>
 </html>
