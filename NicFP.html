@@ -185,7 +185,7 @@
             </div>
 
             <div class="nav-module menu-module right col-xs-6" style="width: 200px; " id="socialNav">
-                <div class="flex-container" style="background-color: #f4f4f4; font-size: 10px;" >
+                <div class="flex-container" style="background-color: inherit; font-size: 10px;" >
                     <div  style="margin-left: 12px;">
                         <a href="https://twitter.com/teamnikoin" target="_blank"><i  class="fab fa-twitter"></i></a>
                     </div>
@@ -417,7 +417,7 @@
         $("a").on('click', function(event) {
 
             // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
+            if (this.hash !== "#ucase") {
                 // Prevent default anchor click behavior
                 event.preventDefault();
 
