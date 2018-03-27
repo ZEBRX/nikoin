@@ -75,17 +75,31 @@
 				.mobile_screen{
 					display: none ;
 				}
-				.mobile_screen_1{
-					display: none ;
-				}
+
 			}
 			@media only screen and (max-width: 768px){
 
 				.large_screen{
 					display: none ;
 				}
-				.large_screen_1{
+
+			}
+			@media only screen and (max-width: 1440px){
+
+				.lp_screen{
+					display: block ;
+				}
+				.ss_1{
 					display: none ;
+				}
+			}
+			@media only screen and (min-width: 1441px){
+
+				.lp_screen{
+					display: none ;
+				}
+				.ss_1{
+					display: block ;
 				}
 			}
 		</style>
@@ -208,8 +222,11 @@
 		<div class="main-container">
 			<section class="blog-post">
 					<div class="blog-post__title imagebg">
-						<div class="background-image-holder" >
+						<div class="background-image-holder lp_screen" style="height:40vh;width:100vw;">
 							<img alt="Pic"  src="img/nikoin-fellowship-web-banner-u.png">
+						</div>
+						<div class="background-image-holder ss_1" style="height:50vh;width:100vw;">
+							<img alt="Pic"  src="img/nikoin-fellowship-web-banner.png">
 						</div>
 
 					</div>
@@ -217,7 +234,7 @@
 			</section>
 
 		<div class="row">
-			<div class="col-lg-3 large_screen pull-left" style="position: absolute; margin-top:1%; z-index: 1; ">
+			<div class="col-lg-3 large_screen pull-left" style="position: absolute; margin-top:3%; z-index: 1; ">
 				<div class="card">
 					<div class="container1">
 						<a href="#students" style="text-decoration: none; text-align:center"><h5>For Students</h5></a>
@@ -238,7 +255,7 @@
 			</div>
 
 
-		<section class="blog-post pull-right" style="margin-left: 10px; margin-right: 10px;">
+		<section class="blog-post pull-right" style="margin-left: 10px; margin-right: 10px; margin-top: 20px;">
 
 
 		                <div class="container">
