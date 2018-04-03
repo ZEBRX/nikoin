@@ -1,0 +1,12 @@
+ErrorDocument 404 http://localhost:8888/nik/error
+
+RewriteEngine on 
+
+RewriteRule ^(./)$ index.html
+RewriteRule ^(launch)$ launch.html
+RewriteRule ^(NFP)$ NFP.html
+RewriteRule ^(SEP)$ SEP.html
+RewriteRule ^(timeline)$ timeline.html
+RewriteRule ^(error)$ error.html
+RewriteRule ^(whitepaper)$ docs/whitepaper.pdf
+
