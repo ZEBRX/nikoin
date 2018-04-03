@@ -97,6 +97,15 @@ body
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.2);
 }
+.assopub {
+
+    -webkit-transition: all .4s ;
+}
+
+.assopub:hover {
+
+    -webkit-transform: scale(1.2);
+}
 .nikoinPlatformImgVector
 {
     display: none;
