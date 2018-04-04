@@ -54,9 +54,3 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #000; color : #000;}";
         document.body.appendChild(css);
     };
-var modal = document.getElementById('multi-column');
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}

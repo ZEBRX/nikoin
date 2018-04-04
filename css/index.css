@@ -1,14 +1,3 @@
-.flex-container {
-    display: flex;
-    background-color: #fff;
-    margin: 0px;
-    padding:0px;
-}
-
-.flex-container > div {
-    color: black;
-}
-
 .imgHeader
 {
 	width: 51%;
@@ -119,6 +108,11 @@ body
     margin-left: 0px;
     
 }
+#socialNavMobile
+{
+    display: none;
+
+}
 #associations
 {
     -webkit-box-align: center; position: relative; height: 82.5%; width: 100%; margin-top: 10%;
@@ -142,7 +136,7 @@ body
 }
 .saleImg
 {
-    width: 40%;
+    width: 50%;
     margin-top: 5%;
 }
 .token
@@ -170,12 +164,45 @@ body
     width: 60%;
     padding-top: 18%;
 }
+.assopub {
+
+    -webkit-transition: all .4s ;
+}
+
+.assopub:hover {
+
+    -webkit-transform: scale(1.2);
+}
 footer
 {
     padding-top: 5%;
     padding-bottom: 0;
     border-top: 0.6px solid #c3c3c3b8;
 }
+.featureDiv {
+    -webkit-transition: all 0.2s ease; /* Safari and Chrome */
+    -moz-transition: all 0.2s ease; /* Firefox */
+    -ms-transition: all 0.2s ease; /* IE 9 */
+    -o-transition: all 0.2s ease; /* Opera */
+    transition: all 0.2s ease;
+}
+
+.featureDiv:hover {
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.1);
+}
+
+@media only screen and (min-width: 501px){
+
+    .small_screen{
+        display: none ;
+    }
+}
+
+
 @media only screen and (max-width: 500px) {
     
     .media
@@ -290,9 +317,11 @@ footer
         display: inline-block;
         width: 80%;
     }
-    #socialNav
+    #socialNavMobile
     {
-        display: none;
+        display: inline-block;
+        width: auto;margin-right: 25%;margin-top: 2%; 
+
     }
     #featureBlk
     {
@@ -306,5 +335,206 @@ footer
     {
         top: 40%;
     }
+    #socialNav
+    {
+        display: none;
+    }
+
+    .big_screen
+    {
+        display: none;
+    }
+}
+/*IPad view*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) 
+{
+    #socialNav
+    {
+        display: none;
+    }
+    #socialNavMobile
+    {
+        display: inline-block;
+        margin-right: 40%;
+        width: auto;margin-top: 2%; 
+
+    }
+
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+.emailmodal {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.modsub {
+    background-color: #50c3c4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    font-size: 30px;
+}
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    padding:5%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+#id01 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+#id02 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+#deskhr1 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+#mobonly2 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 4%; /* Could be more or less, depending on screen size */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+#deskhr2 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+#mobonly2 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 4%; /* Could be more or less, depending on screen size */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media only screen and (max-width: 768px){
+
+    .mobonly{
+        display:block ;
+    }
+    .deskhr{
+        display:none;
+    }
+
+}
+@media only screen and (min-width: 768px){
+
+    .mobonly{
+        display:none ;
+    }
+    .deskhr{
+        display:block;
+    }
+
+}
+
+
+
+.modal_reg{
+    display: flex;
+    flex-direction: column;
 
 }
