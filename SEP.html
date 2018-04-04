@@ -270,7 +270,7 @@
 				<div class="col-md-3 col-sm-4">
 					<a href="." target="_blank"><img width="80%" class="footerlogo" alt="Nikoin" class="logo" src="img/nikoin-logo-wm(white).png"></a>
 				</div>
-				<div class="col-md-6 col-sm-8 footer">
+				<div class="col-md-5 col-sm-8 footer">
 					<h5 style="font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;text-transform: uppercase; letter-spacing: 1px; font-size: 10px;">Navigate</h5>
 					<div class="footerNav">
 						<ul class="footer__navigation" style=" text-align: left; width: 130%">
@@ -320,10 +320,13 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-12 subscribeBlock">
+				<div class="col-md-4 col-sm-12 subscribeBlock">
 					<h5 style="font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;text-transform: uppercase; letter-spacing: 1px; font-size: 10px;">Subscribe</h5>
 					<p style=" text-align: left; ">Get monthly updates and free resources.</p>
-					<form class="form--merge form--no-labels" action="https://nikoin.us17.list-manage.com/subscribe/post?u=50127d2366813574adc08f7fa&amp;id=4afe3c5596"><input type="email" value="" name="EMAIL" class="col-md-8 col-sm-6" placeholder="email address" required=""><div aria-hidden=" true" class="hidden"><input type=" text" name="b_50127d2366813574adc08f7fa_4afe3c5596" tabindex="-1" value=""></div><input type="submit" value="Go" name="go" class="col-md-4 col-sm-6"></form>
+					<form class="form--merge form--no-labels" id="subscribe" ><input type="email" id="fdata" class="col-md-8 col-sm-6" placeholder="email address" required>
+						<input type="submit"  value="Go" style="border-radius: 0 50px 50px 0; height: 52px;" name="go" class="col-md-4 col-sm-6">
+						<label for="fdata" id="fdata-error" class="error" generated="true" style="color: #fff;" class="error"></label>
+					</form>
 				</div>
 				<div class="nav-module menu-module right col-xs-6" style="width: auto;margin-right: 25%;margin-top: 2%; " id="socialNavMobile">
 				<div class="flex-container" style="background-color: #232323;" >
@@ -374,7 +377,8 @@
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script  src="js/use_case.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+<script  src="js/backnm.js"></script>
 <script src="js/scrollreveal.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/scripts.js"></script>
