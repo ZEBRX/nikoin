@@ -4297,9 +4297,9 @@ button.btn--loading:after {
   min-width: 100%;
   overflow: hidden;
 }
-.form--merge input {
+/*.form--merge input {
   border-radius: 50px 0 0 50px;
-}
+}*/
 .form--merge input + button[type="submit"] {
   margin-left: -4px;
 }
