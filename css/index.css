@@ -1,3 +1,9 @@
+@-moz-document url-prefix() {
+    #container
+    {
+        width: 100vw;
+    }
+}
 .imgHeader
 {
 	width: 51%;

@@ -25,7 +25,6 @@ $(document).ready(function() {
                                 success: function (response) {
                                     console.log(response);
                                     if(response["result"]=="OK"){
-                                        window.location.reload(true);
                                         console.log("OK");
                                     }else{
                                         console.log("Invalid");
