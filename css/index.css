@@ -1,0 +1,596 @@
+.imgHeader
+{
+	width: 51%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.line-1{
+    position: relative;
+    width: 24em;
+    color: #000;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+body 
+{
+  text-align: center;
+  color:#f4f4f4;
+}
+.headerButton
+{
+	background-color: #425bbb;
+    color: #f4f4f4;
+    position: relative;
+}
+.mantraDiv
+{
+	color: #fff;
+    font-family: Roboto; 
+    font-size: 200%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.widgetDiv
+{
+    height: 49px;
+    margin-left: 9%;
+    margin-bottom: 3%;
+    align-self: center;
+    position: relative;
+    text-indent: 0.25em;
+    font-weight: 400;
+    font-family: Roboto; 
+    font-size: 200%;
+    text-transform: uppercase;
+}
+.documentButton
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10%;
+}
+.exchangeCards
+{
+    width: 23%;
+    margin-left: 1%;
+                height: 250px;
+                /*display: inline-block;*/
+}
+            .test22{                         /*For Exchange and Associations*/
+                    height: 500px;
+                    display: inline-block;
+
+                }
+
+            .exborder {                         /*For Exchange and Associations*/
+                height: 70%;
+                background-color: #232323;
+                /*border: 5px solid #232323;*/
+                padding: 10px;
+                margin-top: 3%;
+            }
+
+            .exshadow {          /*For Exchange and Associations*/
+                box-shadow:6px 6px 13px #3D3D3D;
+
+            }
+
+            .associations {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+.exchanges {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: gray; /* IE5+ */
+    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .4s ;
+}
+
+.exchanges:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.2);
+}
+.nikoinPlatformImgVector
+{
+    display: none;
+}
+.associationsImg
+{
+    width: 25%;
+    display: inline-block;
+    margin-left: 0px;
+    
+}
+#socialNavMobile
+{
+    display: none;
+
+}
+#associations
+{
+    -webkit-box-align: center; position: relative; height: 82.5%; width: 100%; margin-top: 10%;
+}
+.blockVitalikMobile
+{
+    display: none;
+}
+.footerlogo
+{
+    margin-left: -75px;
+}
+.socialIcons
+{
+    display: none;
+}
+.header
+{
+    text-align: center;
+    color: #f4f4f4;
+}
+.saleImg
+{
+    width: 50%;
+    margin-top: 5%;
+}
+.token
+{
+    float: right;
+    color: #f4f4f4;
+    margin-top: 5%;
+}
+.saleNikoin
+{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4%;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+.footerNav
+{
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
+.media
+{
+    width: 60%;
+    padding-top: 18%;
+}
+.assopub {
+
+    -webkit-transition: all .4s ;
+}
+
+.assopub:hover {
+
+    -webkit-transform: scale(1.2);
+}
+footer
+{
+    padding-top: 5%;
+    padding-bottom: 0;
+    border-top: 0.6px solid #c3c3c3b8;
+}
+.featureDiv {
+    -webkit-transition: all 0.2s ease; /* Safari and Chrome */
+    -moz-transition: all 0.2s ease; /* Firefox */
+    -ms-transition: all 0.2s ease; /* IE 9 */
+    -o-transition: all 0.2s ease; /* Opera */
+    transition: all 0.2s ease;
+}
+
+.featureDiv:hover {
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.1);
+}
+
+
+@media only screen and (min-width: 501px){
+
+    .small_screen{
+        display: none ;
+    }
+    .btngo
+{
+    border-radius: 50px; 
+    height: 52px;
+    -webkit-appearance:button;cursor:pointer;
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+    .media
+    {
+        width: 36%;
+        padding: 0px;
+    }
+    .widgetDiv
+    {
+        height: 49px;
+        margin-left: 9%;
+        margin-bottom: 3%;
+        align-self: center;
+        position: relative;
+        text-indent: 0.25em;
+        font-weight: 400;
+        font-family: Roboto; 
+        font-size: 150%;
+        text-transform: uppercase;
+    }
+    .nikoinPlatformImg
+    {
+        display: none;
+    }
+    .nikoinPlatformImgVector
+    {
+        display: inline-block;
+        width: 85%;
+        margin-top: 5%;
+    }
+    .infigraphic
+    {
+        display: none;
+    }
+    .documentButton
+    {
+        margin-top: 0px;
+        margin-left: 12%;
+    }
+    .padding
+    {
+        padding: 10%;
+    }
+    .test22
+    {
+        margin-top: 5%;
+        height: auto;
+    }
+    .blockBaas
+    {
+        padding-top: 0px;
+        margin-top: -30%;
+    }
+    .btnn
+    {
+        margin-top: 5%;
+    }
+    .blockNikoin
+    {
+        padding: 0px;
+    }
+    #associations
+    {
+        height: auto;
+    }
+    .associationsImg
+    {
+        width: 48%;
+    }
+    .blockVitalikMobile
+    {
+        display: inline-block;
+    }
+    .blockVitalikDesktop
+    {
+        display: none;
+    }
+    .blockVitalikQuote
+    {
+        margin-top: 5%;
+        padding: 10%;
+    }
+    .footerlogo
+    {
+        width: 50%;
+        margin-left: 0px;
+    }
+    .footerquote
+    {
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer
+    {
+        padding: 10%;
+        text-align: center;
+    }
+    .socialicon
+    {
+        margin-left: 3%;
+    }
+    .subscribeBlock
+    {
+        padding: 10%;
+    }
+    .socialIconDesktop
+    {
+        display: none;
+    }
+    .socialIcons
+    {
+        display: inline-block;
+        width: 80%;
+    }
+    #socialNavMobile
+    {
+        display: inline-block;
+        width: auto;margin-right: 33%;
+        margin-top: 2%; 
+
+    }
+    #featureBlk
+    {
+        padding: 0 5%;
+    }
+    .rightMedia
+    {
+        margin-left: 10%;
+    }
+    .navMobile
+    {
+        top: 40%;
+    }
+    #socialNav
+    {
+        display: none;
+    }
+
+    .big_screen
+    {
+        display: none;
+    }
+}
+/*IPad view*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) 
+{
+    #socialNav
+    {
+        display: none;
+    }
+    #socialNavMobile
+    {
+        display: inline-block;
+        margin-right: 40%;
+        width: auto;margin-top: 2%; 
+
+    }
+
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+.emailmodal {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.modsub {
+    background-color: #50c3c4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    font-size: 30px;
+}
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    padding:5%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+{
+    border-radius: 50px; 
+    height: 52px;
+}
+/* The Modal (background) */
+#id01 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+#id02 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+#deskhr1 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+#mobonly2 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 4%; /* Could be more or less, depending on screen size */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+#deskhr2 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+#mobonly2 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 4%; /* Could be more or less, depending on screen size */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media only screen and (max-width: 768px){
+
+    .mobonly{
+        display:block ;
+        top:20vh;
+    }
+    .deskhr{
+        display:none;
+    }
+
+}
+@media only screen and (min-width: 768px){
+
+    .mobonly{
+        display:none ;
+        top:20vh;
+    }
+    .deskhr{
+        display:block;
+    }
+    #presentationResponsive
+    {
+    left: -30%;
+    width: 75vw;
+    }
+
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+    iframe {
+        height: 500
+    }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+    #presentationResponsive
+{
+    left: 0%;
+    width: 75vw;
+}
+#socialNavMobile
+    {
+        display: inline-block;
+        width: auto;margin-right: 33%;
+        margin-top: 2%; 
+
+    }
+}
+
+
+
+.modal_reg{
+    display: flex;
+    flex-direction: column;
+
+}
+@media only screen and (min-width: 1025px){
+#presentationResponsive
+{
+    left: -30%;
+    width: 75vw;
+}
+{
+    border-radius: 50px; 
+    height: 52px;
+}
+
+}
