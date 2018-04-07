@@ -196,11 +196,18 @@ footer
     transform:scale(1.1);
 }
 
+
 @media only screen and (min-width: 501px){
 
     .small_screen{
         display: none ;
     }
+    .btngo
+{
+    border-radius: 50px; 
+    height: 52px;
+    -webkit-appearance:button;cursor:pointer;
+}
 }
 
 
@@ -321,7 +328,8 @@ footer
     #socialNavMobile
     {
         display: inline-block;
-        width: auto;margin-right: 25%;margin-top: 2%; 
+        width: auto;margin-right: 33%;
+        margin-top: 2%; 
 
     }
     #featureBlk
@@ -420,7 +428,10 @@ span.psw {
     float: right;
     padding-top: 16px;
 }
-
+{
+    border-radius: 50px; 
+    height: 52px;
+}
 /* The Modal (background) */
 #id01 {
     display: none; /* Hidden by default */
@@ -450,17 +461,41 @@ span.psw {
 }
 
 /* Modal Content/Box */
-#deskhr {
+#deskhr1 {
     background-color: #fefefe;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
     width: 50%; /* Could be more or less, depending on screen size */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
 }
-#mobonly {
+#mobonly2 {
     background-color: #fefefe;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
-    width: 100%; /* Could be more or less, depending on screen size */
+    width: 4%; /* Could be more or less, depending on screen size */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+#deskhr2 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+#mobonly2 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 4%; /* Could be more or less, depending on screen size */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
 }
 
 /* The Close Button (x) */
@@ -491,6 +526,7 @@ span.psw {
 
     .mobonly{
         display:block ;
+        top:20vh;
     }
     .deskhr{
         display:none;
@@ -501,11 +537,43 @@ span.psw {
 
     .mobonly{
         display:none ;
+        top:20vh;
     }
     .deskhr{
         display:block;
     }
+    #presentationResponsive
+    {
+    left: -30%;
+    width: 75vw;
+    }
 
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+    iframe {
+        height: 500
+    }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+    #presentationResponsive
+{
+    left: 0%;
+    width: 75vw;
+}
+#socialNavMobile
+    {
+        display: inline-block;
+        width: auto;margin-right: 33%;
+        margin-top: 2%; 
+
+    }
 }
 
 
@@ -513,5 +581,17 @@ span.psw {
 .modal_reg{
     display: flex;
     flex-direction: column;
+
+}
+@media only screen and (min-width: 1025px){
+#presentationResponsive
+{
+    left: -30%;
+    width: 75vw;
+}
+{
+    border-radius: 50px; 
+    height: 52px;
+}
 
 }
